@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: default;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    background-color: #181B22;
+}
+
+.container {
+    width: 500px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.b-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn {
+    background-color: hsl(51, 100%, 47%);
+    border: 1px solid hsl(51, 100%, 27%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover{
+    border-color: black;
+}
+
+
